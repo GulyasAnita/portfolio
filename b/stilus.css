@@ -1,0 +1,85 @@
+@charset "utf-8";
+h1{
+	font-size:20px;
+	font-family:Verdana;
+	border-bottom:1px solid #b71d1d;
+	border-top:1px solid #b71d1d;
+}
+h2{
+	font-family:Verdana;
+	padding-top:10px;
+}
+body{
+	font-family:Verdana;
+	font-size:15px;
+	color:#b71d1d;
+	background:#b71d1d url("kepek/egyiptomihatter.jpg");
+}
+
+#fotarolo{
+	background:#dcbc69;
+	margin:auto;
+	width:600px;
+	padding:10px;
+	
+}
+img{
+	border:#b71d1d 1px dashed;
+	width:290px;
+	padding:3px;
+}
+.jobb{
+	float:right;
+	margin-left:10px;
+}
+.bal{
+	float:left;
+	margin-right:10px;
+}
+h2, .torol{
+	clear:both;
+}
+p{
+	text-align:justify;
+}
+a{
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:15px;
+	padding-bottom:15px;
+	border:2px gray solid;
+	background-color:lightgray;
+	text-decoration:none;
+	font-weight:bold;
+	margin-bottom:30px;
+}
+
+a:link{
+	color:white;
+}
+
+a:visited{
+	color:white;
+}
+
+a:hover{
+	color:red;
+	background-color:yellow;
+}
+
+a:active{
+	color:blue;
+	background-color:white;
+}
+
+#menu{
+	padding:20px;
+}
+
+#link1{
+	float:left;
+}
+
+#link2{
+	float:right;
+}
